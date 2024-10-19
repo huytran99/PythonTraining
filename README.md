@@ -1,0 +1,2 @@
+# PythonTraining
+Mini project
