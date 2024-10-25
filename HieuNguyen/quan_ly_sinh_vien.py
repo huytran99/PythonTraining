@@ -1,4 +1,5 @@
 print("Chào mừng bạn đến với hệ thống quản lý sinh viên")
+
 def hien_thi_menu():
     print("\n1. Thêm sinh viên")
     print("2. Hiển thị danh sách sinh viên")
