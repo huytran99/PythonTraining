@@ -120,9 +120,9 @@ class Quan_lý_sinh_vien:
             # nếu i.hoten mà giống với họ têm sinh viên nguoi dung nhập vào thì sẽ cho người dùng nhập điểm của sinh viên ý
             if cap_nhat_diem == i.hoten:
                 try:
-                    mon1 = int(input(f'nhập điểm môn {i.mon_hoc_1} của sinh viên {i.hoten}: '))
-                    mon2 = int(input(f'nhập điểm môn {i.mon_hoc_2} của sinh viên {i.hoten}: '))
-                    mon3 = int(input(f'nhập điểm môn {i.mon_hoc_3} của sinh viên {i.hoten}: '))
+                    mon1 = float(input(f'nhập điểm môn {i.mon_hoc_1} của sinh viên {i.hoten}: '))
+                    mon2 = float(input(f'nhập điểm môn {i.mon_hoc_2} của sinh viên {i.hoten}: '))
+                    mon3 = float(input(f'nhập điểm môn {i.mon_hoc_3} của sinh viên {i.hoten}: '))
                     i.diem_mon_hoc1 = mon1
                     i.diem_mon_hoc2 = mon2
                     i.diem_mon_hoc3 = mon3
