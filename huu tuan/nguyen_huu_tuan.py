@@ -18,3 +18,8 @@ hcn = HinhChuNhat(20, 50)
 print(hcn.tinh_dien_tich())
 # in ra màn hình chu vi hình chữ nhật
 print(hcn.tinh_chu_vi())
+
+# Viết hàm độc lập tính dien_tich_hinh_chu_nhat nhận vào chiều dài và chiều rộng để tính diện tích
+def dien_tich_hinh_chu_nhat(chieu_dai, chieu_rong):
+    return chieu_dai * chieu_rong
+print(dien_tich_hinh_chu_nhat(20, 50))
