@@ -1,0 +1,63 @@
+flake8.checker            MainProcess     58 INFO     Making checkers
+flake8.main.application   MainProcess     64 INFO     Finished running
+flake8.main.application   MainProcess     64 INFO     Reporting errors
+flake8.main.application   MainProcess     64 INFO     Found a total of 23 violations and reported 18
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:3: [E265] block comment should start with '# '
+#chào mừng
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:9: [E265] block comment should start with '# '
+#menu chính
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:10: [E302] expected 2 blank lines, found 1
+def menu():
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:33: [E225] missing whitespace around operator
+        elif lua_chon =="6":
+                        ^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:40: [E265] block comment should start with '# '
+#Tạo danh sách vinh viên
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:41: [E305] expected 2 blank lines after class or function definition, found 0
+danh_sach_sinh_vien = []
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:43: [E265] block comment should start with '# '
+#thêm sinh viên mới
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:44: [E302] expected 2 blank lines, found 1
+def them_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:49: [E225] missing whitespace around operator
+        if mon =="":
+                 ^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:51: [E211] whitespace before '('
+        diem = float (input(f"nhập điểm cho môn {mon}: "))
+                    ^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:56: [E265] block comment should start with '# '
+#Hiện thị danh sách sinh viên
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:57: [E302] expected 2 blank lines, found 1
+def hien_thi_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:61: [E265] block comment should start with '# '
+#tinh điểm trung bình của từng sinh vien
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:62: [E302] expected 2 blank lines, found 1
+def tinh_diem_trung_binh():
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:68: [E265] block comment should start with '# '
+#tiềm kiếm sinh viên theo tên
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:69: [E302] expected 2 blank lines, found 1
+def tim_kiem_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:100: [E302] expected 2 blank lines, found 1
+def xoa_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/PhamHuuQuy/miniproject1.py:112: [W292] no newline at end of file
+    menu()          ^
+1     E211 whitespace before '('
+2     E225 missing whitespace around operator
+7     E265 block comment should start with '# '
+6     E302 expected 2 blank lines, found 1
+1     E305 expected 2 blank lines after class or function definition, found 0
+1     W292 no newline at end of file
