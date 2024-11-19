@@ -1,0 +1,101 @@
+flake8.checker            MainProcess     41 INFO     Making checkers
+flake8.main.application   MainProcess    186 INFO     Finished running
+flake8.main.application   MainProcess    186 INFO     Reporting errors
+flake8.main.application   MainProcess    187 INFO     Found a total of 50 violations and reported 29
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:8: [E302] expected 2 blank lines, found 0
+class Quan_lý_sinh_vien:
+^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                             ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                               ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                                           ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                                             ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                                                         ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                                                           ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                                                                              ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:10: [E251] unexpected spaces around keyword / parameter equals
+    def __init__(self, masv, hoten, mon_hoc_1, mon_hoc_2, mon_hoc_3, diem_mh1 = 0, diem_mh2 = 0, diem_mh3 = 0, diem_trung_binh = 0):
+                                                                                                                                ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:21: [E301] expected 1 blank line, found 0
+    def themsv(self):
+    ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:22: [E111] indentation is not a multiple of 4
+         try:
+         ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:22: [E117] over-indented
+         try:
+         ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:30: [E712] comparison to False should be 'if cond is False:' or 'if not cond:'
+                if temp == False:
+                        ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:33: [E226] missing whitespace around arithmetic operator
+                ma_sv = int(input(f'nhập mã sinh viên thứ {i+1}: '))
+                                                            ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:42: [E226] missing whitespace around arithmetic operator
+                    ho_ten = input(f'nhập họ tên sinh viên thứ {i+1}: ')
+                                                                 ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:50: [E722] do not use bare 'except'
+         except:
+         ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:50: [E111] indentation is not a multiple of 4
+         except:
+         ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:51: [E111] indentation is not a multiple of 4
+             print('lỗi cú pháp')
+             ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:53: [E301] expected 1 blank line, found 0
+    def Diem_trung_binh(self):
+    ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:66: [E301] expected 1 blank line, found 0
+    def xem_danh_sach_sinh_vien(self):
+    ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:79: [E301] expected 1 blank line, found 0
+    def tim_kiem_theo_ten(self):
+    ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:88: [E301] expected 1 blank line, found 0
+    def xoa_sv(self):
+    ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:110: [E722] do not use bare 'except'
+        except:
+        ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:130: [E722] do not use bare 'except'
+                except:
+                ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:162: [E114] indentation is not a multiple of 4 (comment)
+     # nếu nguoi_dung chọn chức năng xóa sinh vinh thì sẽ gọi hàm xoa_sv
+     ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/miniproject1.py:180: [W292] no newline at end of file
+        break             ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/nguyen_huu_tuan.py:9: [E301] expected 1 blank line, found 0
+    def tinh_dien_tich(self):
+    ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/nguyen_huu_tuan.py:12: [E301] expected 1 blank line, found 0
+    def tinh_chu_vi(self):
+    ^
+/Users/harry/Workspace/PythonTraining/HuuTuan/nguyen_huu_tuan.py:16: [E305] expected 2 blank lines after class or function definition, found 1
+hcn = HinhChuNhat(20, 50)
+^
+3     E111 indentation is not a multiple of 4
+1     E114 indentation is not a multiple of 4 (comment)
+1     E117 over-indented
+2     E226 missing whitespace around arithmetic operator
+8     E251 unexpected spaces around keyword / parameter equals
+7     E301 expected 1 blank line, found 0
+1     E302 expected 2 blank lines, found 0
+1     E305 expected 2 blank lines after class or function definition, found 1
+1     E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+3     E722 do not use bare 'except'
+1     W292 no newline at end of file

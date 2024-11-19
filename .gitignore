@@ -1,0 +1,68 @@
+# IDE plaintext and editor 
+# files Python 
+cache
+.vscode/
+files
+.idea/
+__pycache__/
+*.swp
+*.swo
+*.py[cod]
+
+# Virtual environment
+*.sublime-project
+*.sublime-workspace
+venv/
+env/
+ENV/
+.venv/
+# .env/  
+
+# Jupyter Notebook checkpoints Distribution / packaging
+.Python
+.ipynb_checkpoints
+
+# Test and coverage develop-eggs/
+build/
+reports
+.coverage
+*.cover
+*.log
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+nosetests.xml
+parts/
+sdist/
+coverage.xml
+*.hypothesis/
+.pytest_cache/
+
+var/
+wheels/
+# pip-wheel-metadata/
+share/python-wheels/
+
+# Installer logs
+# Miscellaneous
+pip-log.txt
+*.DS_Store
+.sourcery.yaml
+
+# Unit test / coverage *.egg-info
+*.pdb
+htmlcov/
+*.pyo
+.tox/
+.nox/
+*.pyd
+*.db
+.coverage
+.coverage.*
+*.sqlite3
+.cache
+*.bak
+*.tmp
+nosetests.xml

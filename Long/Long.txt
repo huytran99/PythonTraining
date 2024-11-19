@@ -1,0 +1,28 @@
+flake8.checker            MainProcess     42 INFO     Making checkers
+flake8.main.application   MainProcess     48 INFO     Finished running
+flake8.main.application   MainProcess     48 INFO     Reporting errors
+flake8.main.application   MainProcess     48 INFO     Found a total of 11 violations and reported 7
+/Users/harry/Workspace/PythonTraining/Long/miniproject1.py:21: [E701] multiple statements on one line (colon)
+            if ten_mon == 'x': break
+                             ^
+/Users/harry/Workspace/PythonTraining/Long/miniproject1.py:27: [W293] blank line contains whitespace
+        
+^
+/Users/harry/Workspace/PythonTraining/Long/miniproject1.py:28: [E701] multiple statements on one line (colon)
+        if not danh_sach_sinh_vien: print("Danh sach trong.")
+                                  ^
+/Users/harry/Workspace/PythonTraining/Long/miniproject1.py:29: [W291] trailing whitespace
+        for sinh_vien in danh_sach_sinh_vien: 
+                                             ^
+/Users/harry/Workspace/PythonTraining/Long/miniproject1.py:41: [W293] blank line contains whitespace
+        
+^
+/Users/harry/Workspace/PythonTraining/Long/miniproject1.py:49: [W293] blank line contains whitespace
+    
+^
+/Users/harry/Workspace/PythonTraining/Long/miniproject1.py:71: [W292] no newline at end of file
+        print("Lua chon khong hop le.")                                       ^
+2     E701 multiple statements on one line (colon)
+1     W291 trailing whitespace
+1     W292 no newline at end of file
+3     W293 blank line contains whitespace

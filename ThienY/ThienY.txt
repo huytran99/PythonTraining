@@ -1,0 +1,64 @@
+flake8.checker            MainProcess     41 INFO     Making checkers
+flake8.main.application   MainProcess     45 INFO     Finished running
+flake8.main.application   MainProcess     45 INFO     Reporting errors
+flake8.main.application   MainProcess     46 INFO     Found a total of 18 violations and reported 18
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:1: [E265] block comment should start with '# '
+#buoc 1
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:3: [E265] block comment should start with '# '
+#buoc 2
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:4: [E302] expected 2 blank lines, found 0
+def main():
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:11: [F841] local variable 'choice' is assigned to but never used
+        choice = input("chọn chức năng: ")
+        ^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:12: [E265] block comment should start with '# '
+#buoc 3
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:13: [F841] local variable 'listSV' is assigned to but never used
+    listSV= []
+    ^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:13: [E225] missing whitespace around operator
+    listSV= []
+          ^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:29: [E303] too many blank lines (5)
+#buoc 6
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:29: [E265] block comment should start with '# '
+#buoc 6
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:31: [E302] expected 2 blank lines, found 5
+class SinhVien:
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:40: [E302] expected 2 blank lines, found 1
+def tinhDTB(self, sv:SinhVien):
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:40: [E231] missing whitespace after ':'
+def tinhDTB(self, sv:SinhVien):
+                    ^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:41: [F841] local variable 'diemTB' is assigned to but never used
+    diemTB = (sv._diemToan + sv._diemLy + sv._diemHoa) / 3
+    ^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:43: [E265] block comment should start with '# '
+#buoc 7
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:44: [E302] expected 2 blank lines, found 1
+def findByName(self, keyword):
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:52: [E265] block comment should start with '# '
+#buoc 9
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:53: [E302] expected 2 blank lines, found 1
+def deletSV():
+^
+/Users/harry/Workspace/PythonTraining/ThienY/miniproject1.py:55: [W292] no newline at end of file
+    print("Nhập tên sinh viên cần xóa:")                                        ^
+1     E225 missing whitespace around operator
+1     E231 missing whitespace after ':'
+6     E265 block comment should start with '# '
+5     E302 expected 2 blank lines, found 0
+1     E303 too many blank lines (5)
+3     F841 local variable 'choice' is assigned to but never used
+1     W292 no newline at end of file

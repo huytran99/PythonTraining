@@ -1,0 +1,179 @@
+flake8.checker            MainProcess     41 INFO     Making checkers
+flake8.main.application   MainProcess     46 INFO     Finished running
+flake8.main.application   MainProcess     46 INFO     Reporting errors
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:5: [E111] indentation is not a multiple of 4
+   sv_id = input('Nhập mã sinh viên: ')
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:6: [E111] indentation is not a multiple of 4
+   name = input('Nhập họ tên sinh viên: ')
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:7: [E111] indentation is not a multiple of 4
+   scores = []
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:8: [E111] indentation is not a multiple of 4
+   for i in range(3):  # Nhập điểm cho 3 môn
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:9: [E111] indentation is not a multiple of 4
+       while True:  # Lặp lại cho đến khi nhập đúng
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:10: [E111] indentation is not a multiple of 4
+           try:
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:11: [E111] indentation is not a multiple of 4
+               score = float(input(f'Nhập điểm môn {i + 1}: '))
+               ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:12: [E111] indentation is not a multiple of 4
+               scores.append(score)  # Thêm điểm vào danh sách
+               ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:13: [E111] indentation is not a multiple of 4
+               break  # Thoát khỏi vòng lặp nếu nhập thành công
+               ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:14: [E111] indentation is not a multiple of 4
+           except ValueError:
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:15: [E111] indentation is not a multiple of 4
+               print('Điểm không hợp lệ. Vui lòng nhập lại.')
+               ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:16: [E111] indentation is not a multiple of 4
+   students[sv_id] = {'name': name, 'scores': scores}  # Lưu thông tin sinh viên
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:17: [E111] indentation is not a multiple of 4
+   print('Đã thêm sinh viên.')
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:21: [E111] indentation is not a multiple of 4
+   if not students:  # Kiểm tra nếu không có sinh viên nào
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:22: [E111] indentation is not a multiple of 4
+       print('Không có sinh viên nào.')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:23: [E111] indentation is not a multiple of 4
+       return
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:24: [E111] indentation is not a multiple of 4
+   for sv_id, info in students.items():
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:25: [E111] indentation is not a multiple of 4
+       avg_score = sum(info['scores']) / len(info['scores']) if info['scores'] else 0  # Tính điểm trung bình
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:26: [E111] indentation is not a multiple of 4
+       print(f'Mã SV: {sv_id}, Họ tên: {info["name"]}, Điểm: {info["scores"]}, Điểm TB: {avg_score:.2f}')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:30: [E111] indentation is not a multiple of 4
+   sv_id = input('Nhập mã sinh viên cần cập nhật điểm: ')
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:31: [E111] indentation is not a multiple of 4
+   if sv_id in students:  # Kiểm tra sinh viên có trong danh sách không
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:32: [E111] indentation is not a multiple of 4
+       scores = []
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:33: [E111] indentation is not a multiple of 4
+       for i in range(3):  # Nhập điểm cho 3 môn
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:34: [E111] indentation is not a multiple of 4
+           while True:  # Lặp lại cho đến khi nhập đúng
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:35: [E111] indentation is not a multiple of 4
+               try:
+               ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:36: [E111] indentation is not a multiple of 4
+                   score = float(input(f'Nhập điểm môn {i + 1}: '))
+                   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:37: [E111] indentation is not a multiple of 4
+                   scores.append(score)  # Thêm điểm vào danh sách
+                   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:38: [E111] indentation is not a multiple of 4
+                   break  # Thoát khỏi vòng lặp nếu nhập thành công
+                   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:39: [E111] indentation is not a multiple of 4
+               except ValueError:
+               ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:40: [E111] indentation is not a multiple of 4
+                   print('Điểm không hợp lệ. Vui lòng nhập lại.')
+                   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:41: [E111] indentation is not a multiple of 4
+       students[sv_id]['scores'] = scores  # Cập nhật điểm
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:42: [E111] indentation is not a multiple of 4
+       print('Đã cập nhật điểm.')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:43: [E111] indentation is not a multiple of 4
+   else:
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:44: [E111] indentation is not a multiple of 4
+       print('Không tìm thấy sinh viên.')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:48: [E111] indentation is not a multiple of 4
+   sv_id = input('Nhập mã sinh viên cần xóa: ')
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:49: [E111] indentation is not a multiple of 4
+   if sv_id in students:  # Kiểm tra sinh viên có trong danh sách không
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:50: [E111] indentation is not a multiple of 4
+       del students[sv_id]  # Xóa sinh viên
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:51: [E111] indentation is not a multiple of 4
+       print('Đã xóa sinh viên.')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:52: [E111] indentation is not a multiple of 4
+   else:
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:53: [E111] indentation is not a multiple of 4
+       print('Không tìm thấy sinh viên.')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:57: [E111] indentation is not a multiple of 4
+   while True:
+   ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:58: [E111] indentation is not a multiple of 4
+       print('''\nChào bạn! Mời bạn chọn chức năng:
+       0 - Thoát
+       1 - Thêm sinh viên
+       2 - Xem danh sách sinh viên
+       3 - Cập nhật điểm sinh viên
+       4 - Xóa sinh viên
+       ''')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:65: [E111] indentation is not a multiple of 4
+       choice = input('Nhập lựa chọn: ')
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:66: [E111] indentation is not a multiple of 4
+       if choice == '0':
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:67: [E111] indentation is not a multiple of 4
+           break
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:68: [E111] indentation is not a multiple of 4
+       elif choice == '1':
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:69: [E111] indentation is not a multiple of 4
+           add_student()
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:70: [E111] indentation is not a multiple of 4
+flake8.main.application   MainProcess     46 INFO     Found a total of 59 violations and reported 56
+       elif choice == '2':
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:71: [E111] indentation is not a multiple of 4
+           view_students()
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:72: [E111] indentation is not a multiple of 4
+       elif choice == '3':
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:73: [E111] indentation is not a multiple of 4
+           update_scores()
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:74: [E111] indentation is not a multiple of 4
+       elif choice == '4':
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:75: [E111] indentation is not a multiple of 4
+           delete_student()
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:76: [E111] indentation is not a multiple of 4
+       else:
+       ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:77: [E111] indentation is not a multiple of 4
+           print('Lựa chọn không hợp lệ.')
+           ^
+/Users/harry/Workspace/PythonTraining/ManhCuong/miniproject1.py:81: [E111] indentation is not a multiple of 4
+   main()
+   ^
+56    E111 indentation is not a multiple of 4

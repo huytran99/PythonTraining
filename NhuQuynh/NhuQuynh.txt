@@ -1,0 +1,131 @@
+flake8.checker            MainProcess     41 INFO     Making checkers
+flake8.main.application   MainProcess     48 INFO     Finished running
+flake8.main.application   MainProcess     48 INFO     Reporting errors
+flake8.main.application   MainProcess     49 INFO     Found a total of 40 violations and reported 39
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:1: [E265] block comment should start with '# '
+#Bước 1: Thông báo chào mừng và giới thiệu về chương trình.
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:4: [E265] block comment should start with '# '
+#Bước 2: Tạo một menu để người dùng chọn chức năng muốn thực hiện.
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:5: [E302] expected 2 blank lines, found 1
+def hien_thi_menu():
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:23: [F821] undefined name 'hien_thi_danh_sach_sinh_vien'
+                hien_thi_danh_sach_sinh_vien()
+                ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:25: [F821] undefined name 'tinh_diem_trung_binh_cua_sinh_vien'
+                tinh_diem_trung_binh_cua_sinh_vien()  
+                ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:25: [W291] trailing whitespace
+                tinh_diem_trung_binh_cua_sinh_vien()  
+                                                    ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:29: [F821] undefined name 'cap_nhat_thong_tin_sinh_vien'
+                cap_nhat_thong_tin_sinh_vien()  
+                ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:29: [W291] trailing whitespace
+                cap_nhat_thong_tin_sinh_vien()  
+                                              ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:33: [W291] trailing whitespace
+                print("Thoát chương trình.") 
+                                            ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:39: [W293] blank line contains whitespace
+            
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:41: [E305] expected 2 blank lines after class or function definition, found 1
+danh_sach_sinh_vien = []
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:44: [E302] expected 2 blank lines, found 1
+def them_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:48: [F541] f-string is missing placeholders
+        mon_hoc = input(f"Nhập tên môn học: ")
+                        ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:49: [E225] missing whitespace around operator
+        if mon_hoc =="":
+                     ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:52: [W291] trailing whitespace
+        diem_mon_hoc[mon_hoc] = diem 
+                                    ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:53: [W293] blank line contains whitespace
+         
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:58: [W293] blank line contains whitespace
+    
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:60: [F541] f-string is missing placeholders
+    print(f"Đã thêm sinh viên thành công!\n")
+          ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:61: [W293] blank line contains whitespace
+    
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:62: [E265] block comment should start with '# '
+#Tính điểm trung bình của từng sinh viên
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:63: [E302] expected 2 blank lines, found 1
+def tinh_diem_trung_binh():
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:64: [E117] over-indented
+        for sv in danh_sach_sinh_vien:
+        ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:69: [E265] block comment should start with '# '
+#Hàm tìm kiếm sinh viên theo tên
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:70: [E302] expected 2 blank lines, found 1
+def tim_kiem_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:71: [E117] over-indented
+        ten_tim_kiem = input("Nhập tên sinh viên cần tìm: ").lower()
+        ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:78: [F821] undefined name 'sinh_vien_tim_thay'
+        if not sinh_vien_tim_thay:
+               ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:80: [W293] blank line contains whitespace
+            
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:81: [E265] block comment should start with '# '
+#Cập nhật điểm số của sinh viên
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:82: [E302] expected 2 blank lines, found 1
+def cap_nhat_diem_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:83: [F841] local variable 'name' is assigned to but never used
+    name = input("Nhập tên sinh viên cần cập nhật điểm số: ")
+    ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:85: [F821] undefined name 'sinh_vien'
+        if sinh_vien['ten'].lower() == ten.lower():
+           ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:85: [F821] undefined name 'ten'
+        if sinh_vien['ten'].lower() == ten.lower():
+                                       ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:86: [E117] over-indented
+                ten_mon = input("Tên môn học cần cập nhật: ")
+                ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:87: [F821] undefined name 'sinh_vien'
+                sinh_vien['mon_hoc'][ten_mon] = float(input(f"Điểm {ten_mon}: "))
+                ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:89: [W291] trailing whitespace
+                break  
+                     ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:90: [W293] blank line contains whitespace
+            
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:92: [E302] expected 2 blank lines, found 1
+def xoa_sinh_vien():
+^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:95: [W291] trailing whitespace
+        if sv['ten'].lower() == name.lower(): 
+                                             ^
+/Users/harry/Workspace/PythonTraining/NhuQuynh/miniproject1.py:96: [W291] trailing whitespace
+            danh_sach_sinh_vien.remove(sv) 
+                                          ^
+3     E117 over-indented
+1     E225 missing whitespace around operator
+5     E265 block comment should start with '# '
+6     E302 expected 2 blank lines, found 1
+1     E305 expected 2 blank lines after class or function definition, found 1
+2     F541 f-string is missing placeholders
+7     F821 undefined name 'hien_thi_danh_sach_sinh_vien'
+1     F841 local variable 'name' is assigned to but never used
+7     W291 trailing whitespace
+6     W293 blank line contains whitespace
